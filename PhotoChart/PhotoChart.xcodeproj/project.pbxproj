@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		006EED0D2069EFEE00B34422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EED0C2069EFEE00B34422 /* AppDelegate.swift */; };
-		006EED0F2069EFEE00B34422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EED0E2069EFEE00B34422 /* ViewController.swift */; };
 		006EED122069EFEE00B34422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006EED102069EFEE00B34422 /* Main.storyboard */; };
 		006EED142069EFEE00B34422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006EED132069EFEE00B34422 /* Assets.xcassets */; };
 		006EED172069EFEE00B34422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006EED152069EFEE00B34422 /* LaunchScreen.storyboard */; };
+		006EED252069F32200B34422 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EED242069F32200B34422 /* HomeViewController.swift */; };
+		006EED272069F33600B34422 /* ReadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EED262069F33600B34422 /* ReadingViewController.swift */; };
+		006EED292069F34700B34422 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EED282069F34700B34422 /* MessageViewController.swift */; };
+		006EED2B2069F35600B34422 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006EED2A2069F35600B34422 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		006EED092069EFEE00B34422 /* PhotoChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006EED0C2069EFEE00B34422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		006EED0E2069EFEE00B34422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		006EED112069EFEE00B34422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		006EED132069EFEE00B34422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006EED162069EFEE00B34422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006EED182069EFEE00B34422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		006EED242069F32200B34422 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		006EED262069F33600B34422 /* ReadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingViewController.swift; sourceTree = "<group>"; };
+		006EED282069F34700B34422 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		006EED2A2069F35600B34422 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +60,65 @@
 		006EED0B2069EFEE00B34422 /* PhotoChart */ = {
 			isa = PBXGroup;
 			children = (
+				006EED1E2069F2C900B34422 /* Classes */,
 				006EED0C2069EFEE00B34422 /* AppDelegate.swift */,
-				006EED0E2069EFEE00B34422 /* ViewController.swift */,
-				006EED102069EFEE00B34422 /* Main.storyboard */,
 				006EED132069EFEE00B34422 /* Assets.xcassets */,
 				006EED152069EFEE00B34422 /* LaunchScreen.storyboard */,
 				006EED182069EFEE00B34422 /* Info.plist */,
 			);
 			path = PhotoChart;
+			sourceTree = "<group>";
+		};
+		006EED1E2069F2C900B34422 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				006EED232069F2F900B34422 /* Main */,
+				006EED222069F2F300B34422 /* Home */,
+				006EED212069F2E700B34422 /* Reading */,
+				006EED202069F2DE00B34422 /* Message */,
+				006EED1F2069F2D500B34422 /* Profile */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		006EED1F2069F2D500B34422 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				006EED2A2069F35600B34422 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		006EED202069F2DE00B34422 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				006EED282069F34700B34422 /* MessageViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		006EED212069F2E700B34422 /* Reading */ = {
+			isa = PBXGroup;
+			children = (
+				006EED262069F33600B34422 /* ReadingViewController.swift */,
+			);
+			path = Reading;
+			sourceTree = "<group>";
+		};
+		006EED222069F2F300B34422 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				006EED242069F32200B34422 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		006EED232069F2F900B34422 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				006EED102069EFEE00B34422 /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +193,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				006EED0F2069EFEE00B34422 /* ViewController.swift in Sources */,
 				006EED0D2069EFEE00B34422 /* AppDelegate.swift in Sources */,
+				006EED252069F32200B34422 /* HomeViewController.swift in Sources */,
+				006EED2B2069F35600B34422 /* ProfileViewController.swift in Sources */,
+				006EED292069F34700B34422 /* MessageViewController.swift in Sources */,
+				006EED272069F33600B34422 /* ReadingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

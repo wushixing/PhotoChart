@@ -29,10 +29,10 @@
             </objects>
             <point key="canvasLocation" x="-489" y="20"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Reading View Controller-->
         <scene sceneID="E3l-yx-HYm">
             <objects>
-                <tableViewController id="8Vh-xO-VJt" sceneMemberID="viewController">
+                <tableViewController id="8Vh-xO-VJt" customClass="ReadingViewController" customModule="PhotoChart" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qxq-Rh-4od">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -58,10 +58,10 @@
             </objects>
             <point key="canvasLocation" x="1305" y="195"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Message View Controller-->
         <scene sceneID="H27-O0-145">
             <objects>
-                <tableViewController id="F4u-Iy-Xi0" sceneMemberID="viewController">
+                <tableViewController id="F4u-Iy-Xi0" customClass="MessageViewController" customModule="PhotoChart" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tNC-Nq-meJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="1305" y="897"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Profile View Controller-->
         <scene sceneID="q5F-QJ-ELy">
             <objects>
-                <tableViewController id="Xgr-Ke-k5e" sceneMemberID="viewController">
+                <tableViewController id="Xgr-Ke-k5e" customClass="ProfileViewController" customModule="PhotoChart" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fUF-LM-E9U">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -116,10 +116,10 @@
             </objects>
             <point key="canvasLocation" x="1305" y="1573"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="kkD-TG-e8l">
             <objects>
-                <tableViewController id="Y7d-tn-w6f" sceneMemberID="viewController">
+                <tableViewController id="Y7d-tn-w6f" customClass="HomeViewController" customModule="PhotoChart" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="XHT-D6-0lN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
